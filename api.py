@@ -11,7 +11,7 @@ api = Api(app)
 ## Actually setup the Api resource routing here
 ##
 api.add_resource(CustomersList, '/v1.0/customers')
-api.add_resource(Customer, '/v1.0/customer/<string:user_id>')
+api.add_resource(Customer, '/v1.0/customers/<string:user_id>')
 
 
 if __name__ == '__main__':
